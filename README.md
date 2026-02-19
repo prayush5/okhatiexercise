@@ -25,8 +25,9 @@ A production-ready authentication app built with React and Material UI.
 
 ### Installation
 Clone the repository:
-\`\`\`bash
+\`\`\`
 git clone https://github.com/YOUR_USERNAME/okhatiexercise.git
+\`\`\`
 cd okhatiexercise
 \`\`\`
 
