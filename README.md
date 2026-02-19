@@ -61,20 +61,20 @@ docker run -p 3000:3000 okhatiexercise
 Open browser at http://localhost:3000
 
 ## 📁 Project Structure
-\`\`\`
+```
 src/
-  components/
-    ProtectedRoute.js
-  pages/
-    Register.js
-    Login.js
-    Dashboard.js
-  utils/
-    auth.js
-  App.js
-  index.js
-  index.css
-\`\`\`
+├── components/
+│   └── ProtectedRoute.js
+├── pages/
+│   ├── Register.js
+│   ├── Login.js
+│   └── Dashboard.js
+├── utils/
+│   └── auth.js
+├── App.js
+├── index.js
+└── index.css
+```
 
 ## 📋 Exercises Completed
 - ✅ Exercise 1 - Register form with validations
