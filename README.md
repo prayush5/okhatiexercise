@@ -1,53 +1,88 @@
-# Awesome authentication project
+# Awesome Authentication Project
 
-The project has some setup but still requires some efforts to make it awesome. Therefore, we need someone to help us to make it production ready.
+A production-ready authentication app built with React and Material UI.
 
-Note: This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔗 Live Demo
+[https://okhatitesttask.netlify.app](https://okhatitesttask.netlify.app)
 
-## Returning your solution
+## ✨ Features
+- User Registration with validation
+- User Login with protected routes
+- Persistent sessions using localStorage
+- Responsive dark theme UI
 
-- Make a copy of this repository in your github/bitbucket/gitlab account.
-- Make changes, commit them, and push them into your repository.
-- Share us the url of your source code and deployed url link after completion.
+## 🛠️ Tech Stack
+- React
+- Material UI v5
+- React Router DOM v5
+- localStorage for data persistence
 
-## Prerequisite
+## 🚀 Getting Started
 
-- To help you, all the necessary packages are already specified in the package.json
-- Run app locally in development mode using `yarn && yarn start`.
-- Launch the test runner in the interactive watch mode using `yarn test`.
-- Build the app for production to the build folder using `yarn build`.
+### Prerequisites
+- Node.js v16
+- Yarn
 
-## Exercises
+### Installation
+Clone the repository:
+\`\`\`bash
+git clone https://github.com/YOUR_USERNAME/okhatiexercise.git
+cd okhatiexercise
+\`\`\`
 
-## Attempting all the questions is not a must however, your efforts will be rewarded. Note:- Exercise 1, 2 and 3 are mandatory.
+Install dependencies:
+\`\`\`bash
+yarn
+\`\`\`
 
-Hints: Use material design for the [ui](https://material-ui.com/) and feel free to use your own ideas for the design.
+Run locally:
+\`\`\`bash
+yarn start
+\`\`\`
 
-### [1] Create register form for user account creation
+Run tests:
+\`\`\`bash
+yarn test
+\`\`\`
 
-- The form should include Email, password and confirm password fields.
-- Include validations for the fields, for example email (must be a valid email) and, password (must be at least 8 characters long and include at least a number and an alphabet) and also match with confirm password field.
-- Show success message on registration success and navigate user to login page
-- You can use browser local storage to persist the users account information.
+Build for production:
+\`\`\`bash
+yarn build
+\`\`\`
 
-### [2] Build login form so that user can login using the credentials from exercise [1].
+## 🐳 Docker
 
-- Add email and password field in the login form with field validations.
-- On successful login the user will be greeted with welcome message and navigated to the authenticated page.
-- Keep in mind, the authenticated page is not accessible if the user is not logged in.
+Build the image:
+\`\`\`bash
+docker build -t okhatiexercise .
+\`\`\`
 
-### [3] Deploy to netlify
+Run the container:
+\`\`\`bash
+docker run -p 3000:3000 okhatiexercise
+\`\`\`
 
-- Deploy your app to netlify/heroku
+Open browser at http://localhost:3000
 
-### [4] Testing
+## 📁 Project Structure
+\`\`\`
+src/
+  components/
+    ProtectedRoute.js
+  pages/
+    Register.js
+    Login.js
+    Dashboard.js
+  utils/
+    auth.js
+  App.js
+  index.js
+  index.css
+\`\`\`
 
-- Write unit test for the app. (tips: [testing-library](https://testing-library.com/))
-
-### [5] Documentation
-
-- Remember to update the README
-
-### [6] Docker
-
-- Make the app run in the docker
+## 📋 Exercises Completed
+- ✅ Exercise 1 - Register form with validations
+- ✅ Exercise 2 - Login with protected dashboard
+- ✅ Exercise 3 - Deployed to Netlify
+- ✅ Exercise 5 - Documentation updated
+- ✅ Exercise 6 - Dockerized
