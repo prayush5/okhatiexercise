@@ -6,7 +6,6 @@ import {
 import { Visibility, VisibilityOff, LockOpen } from '@mui/icons-material';
 import { useHistory, Link } from 'react-router-dom';
 import { loginUser } from '../utils/auth';
-import { type } from 'os';
 
 const Login = () => {
     const history = useHistory();
