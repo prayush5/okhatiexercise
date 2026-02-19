@@ -32,34 +32,29 @@ cd okhatiexercise
 \`\`\`
 
 Install dependencies:
-\`\`\`bash
+\`\`\`
 yarn
 \`\`\`
 
 Run locally:
-\`\`\`bash
+\`\`\`
 yarn start
 \`\`\`
 
-Run tests:
-\`\`\`bash
-yarn test
-\`\`\`
-
 Build for production:
-\`\`\`bash
+\`\`\`
 yarn build
 \`\`\`
 
 ## 🐳 Docker
 
 Build the image:
-\`\`\`bash
+\`\`\`
 docker build -t okhatiexercise .
 \`\`\`
 
 Run the container:
-\`\`\`bash
+\`\`\`
 docker run -p 3000:3000 okhatiexercise
 \`\`\`
 
